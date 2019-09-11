@@ -11,7 +11,7 @@ Firstly, you should download the Chinese Simplified Model from [BERT](https://gi
 
 ## Seven-category entailment type recognion
 
-```python
+```
 
 export BERT_BASE_DIR=/YOURPATH/chinese_L-12_H-768_A-12
 export MY_DATASET=/DATADIR
@@ -29,7 +29,7 @@ python3 run_classifier.py --use_tpu=False --task_name=MCE --do_train=true \
 
 For seventeen-category entailment chunk boundary recognion, you can run your code by using
 
-```python
+```
 export checkpoint=/YOURPATH/chinese_L-12_H-768_A-12
 export NERdata=/DATADIR
 
